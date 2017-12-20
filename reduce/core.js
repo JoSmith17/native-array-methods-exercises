@@ -1,17 +1,23 @@
-function sum (array) {
+function sum(array) {
+  // your code here
+  return array.reduce(function (previous, current) {
+    return previous + current;
+  });
+}
+
+function productAll(array) {
   // your code here
 }
 
-function productAll (array) {
+function objectify(array) {
   // your code here
+  return array.reduce(function (cartoons, row) {
+    cartoons [row[0] = row[1]];
+    return cartoons;    
+  });
 }
 
-function objectify (array) {
-  // your code here
-
-}
-
-function luckyNumbers (array) {
+function luckyNumbers(array) {
   // your code here
 }
 
